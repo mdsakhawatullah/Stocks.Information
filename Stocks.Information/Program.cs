@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
-builder.Services.AddScoped<MyService>();
+builder.Services.AddScoped<FinnhubService>();
 
 var app = builder.Build();
 
